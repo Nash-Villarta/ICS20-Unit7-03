@@ -1,5 +1,6 @@
 //  Listener for click
 document.getElementById('button').addEventListener('click', calculate)
+let userage = 0
 //  Ranges age to find appropiate age group
 function calculate () {
   userage = document.getElementById('inputbox').value
